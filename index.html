@@ -12,7 +12,7 @@
 			<div class="chat-status">Status: <span>Idle</span></div>
 		</div>
 
-		<script src="http://127.0.0.1:8000/socket.io/socket.io.js"></script>
+		<script src="http://192.168.0.105:8000/socket.io/socket.io.js"></script>
 		<script>
 			(function(){
 				var getNode = function(s) {
@@ -39,7 +39,7 @@
 				};
 
 				try {
-					var socket = io.connect('http://127.0.0.1:8000');
+					var socket = io.connect('http://192.168.0.105:8000');
 				} catch(e) {
 					// Set status to warn user
 				}
